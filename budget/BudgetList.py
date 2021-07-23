@@ -11,3 +11,6 @@ class BudgetList:
         if(self.sum_expenses & & item) > self.budget:
             append(self.expenses[item])
             self.sum_expenses += item
+
+
+v
