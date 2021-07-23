@@ -6,8 +6,3 @@ class BudgetList:
         self.expenses = []
         self.sum_overages = 0
         self.overages = []
-
-    def __append__(self, item):
-        if(self.sum_expenses & & item) > self.budget:
-            append(self.expenses[item])
-            self.sum_expenses += item
