@@ -27,7 +27,11 @@ class BudgetList:
         return self
 
     def __next__(self):
-        pass
+        try:
+            return __next__(self.iter_e)
+        except:
+            StopIteration as stop
+            return __next__(self.iter_o)
 
 
 def main():
