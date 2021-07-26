@@ -26,6 +26,9 @@ class BudgetList:
         self.iter_o = iter(self.overages)
         return self
 
+    def __next__(self):
+        pass
+
 
 def main():
     myBudgetList = BudgetList(1200)
