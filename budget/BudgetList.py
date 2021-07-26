@@ -14,3 +14,6 @@ class BudgetList:
         else:
             self.overages.append(item)
             self.sum_overages += item
+    
+    def __len__(self):
+        return len(self.expenses) + len(self.overages)
