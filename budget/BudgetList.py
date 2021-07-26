@@ -1,5 +1,6 @@
 from . import Expense
 
+
 class BudgetList:
 
     def __init__(self, budget):
@@ -16,12 +17,14 @@ class BudgetList:
         else:
             self.overages.append(item)
             self.sum_overages += item
-    
+
     def __len__(self):
         return len(self.expenses) + len(self.overages)
+
 
 def main():
     myBudgetList = BudgetList(1200)
     expenses = Expense.Expenses()
     expenses.read_expenses("data/spending_data.csv")
-    
+    for expense in expenses.list:
+        expense.amount.append(myBudgetList)
