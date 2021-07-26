@@ -27,4 +27,4 @@ def main():
     expenses = Expense.Expenses()
     expenses.read_expenses("data/spending_data.csv")
     for expense in expenses.list:
-        expense.amount.append(myBudgetList)
+        myBudgetList.append(expense.amount)
