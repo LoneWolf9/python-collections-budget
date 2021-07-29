@@ -30,7 +30,7 @@ class BudgetList:
         try:
             return __next__(self.iter_e)
         except:
-            StopIteration as stop
+            StopIteration
             return __next__(self.iter_o)
 
 
