@@ -46,6 +46,8 @@ def main():
         print(entry)
     fig, ax = plt.subplots()
     labels = ['Expenses', 'Overages', 'Budget']
+    values = [myBudgetList.sum_expenses,
+              myBudgetList.sum_overages, myBudgetList.budget]
 
 
 if __name__ == "__main__":
