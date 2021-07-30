@@ -18,8 +18,7 @@ def main():
 
     timeit.timeit(
         stmt="pass",
-        setup=,
-        ...,
+        setup=...
         ...,
         number=10000,
         globals=globals()
