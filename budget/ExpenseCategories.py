@@ -17,9 +17,9 @@ def main():
             print('Sets are NOT equal by subset test')
 
     timeit.timeit(
-        stmt="pass",
-        setup=...
-        ...,
+        stmt="expense",
+        setup="...
+        ...",
         number=10000,
         globals=globals()
     )
